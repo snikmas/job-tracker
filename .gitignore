@@ -20,7 +20,7 @@ __pycache__/
 data/local/
 
 # Private planning and agent context
-/README.md
+
 /project-info.png
 /project_structure.md
 /roadmap.md
