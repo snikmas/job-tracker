@@ -1,0 +1,37 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local application data
+*.db
+*.sqlite
+*.sqlite3
+.langgraph_api/
+data/local/
+
+# Private planning and agent context
+/README.md
+/project-info.png
+/project_structure.md
+/roadmap.md
+/docs/
+/instructions/
+/plans/
+/notes/
+/private/
+/.private/
+AGENTS.md
+CLAUDE.md
+.codex/
+.cursor/
+.claude/
